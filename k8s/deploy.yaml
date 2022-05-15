@@ -25,7 +25,7 @@ spec:
         app: imalshi
     spec:
       containers:
-        - image: imalshi87z/firstimage:v1:{{tag}}
+        - image: imalshi87z/firstimage:{{tag}}
           imagePullPolicy: Always
           name: firstimage
           resources: {}
